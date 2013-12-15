@@ -1,10 +1,19 @@
 ---
-layout: default
-title: Xhacker’s 3rd Base
+layout: index
 ---
 
-<ul>
-  {% for post in site.posts %}
-  <li>{{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+<h1>{{ site.title }}</h1>
+
+{% for post in site.posts %}
+
+<article>
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <div class="content">
+  {{ post.content }}
+  </div>
+  <footer><date>{{ post.date | date_to_string }}</date></footer>
+</article>
+
+{% endfor %}
+
+<p><a href="" id="previous">Previous Articles</a></p>
