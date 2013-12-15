@@ -11,7 +11,7 @@ layout: index
   <div class="content">
   {{ post.content }}
   </div>
-  <footer><date>{{ post.date | date_to_string }}</date></footer>
+  <footer><time datetime="{{ post.date }}">{{ post.date | date_to_string }}</time></footer>
 </article>
 {% endfor %}
 
