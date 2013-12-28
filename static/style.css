@@ -82,7 +82,7 @@ body {
   line-height: 22px;
 }
 
-p a {
+a {
   border-bottom: 1px dotted;
   border-color: #ccc;
 }
@@ -93,14 +93,23 @@ h1 {
   line-height: 1.1em;
 }
 
-h2 {
+article h1 {
   margin: 36px 0 18px 0;
   font-size: 16px;
   font-weight: normal;
 }
 
+article h1 a {
+  border: none;
+}
+
 article .content {
   padding-left: 15px;
+}
+
+article .content a {
+  border: none;
+  font-weight: bold;
 }
 
 article footer {
