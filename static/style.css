@@ -103,13 +103,23 @@ article h1 a {
   border: none;
 }
 
+article h2 {
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
 article .content {
-  padding-left: 15px;
+  padding-left: 17px;
 }
 
 article .content a {
   border: none;
   font-weight: bold;
+}
+
+article .content ul {
+  padding-left: 20px;
 }
 
 article footer {
@@ -137,6 +147,25 @@ body > footer p {
   margin: 0;
 }
 
+/* Special Posts */
+
+article .content ul.io,
+article .content ul.moments {
+  list-style: none;
+  padding-left: 4px;
+}
+
+article .content ul.io li:first-letter {
+  font-family: Menlo, Monaco, "DejaVu Sans Mono", monospace;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+article .content ul.moments li .month {
+  font-family: "Helvetica Neue", Arial, "DejaVu Sans Mono", monospace;
+  font-weight: bold;
+  margin-right: 6px;
+}
 
 /* =============================================================================
    Media Queries
