@@ -184,12 +184,22 @@ article .content ul.moments li .month {
     border-color: #bbb !important;
   }
 
-  h2 {
+  article h1 {
     font-size: 19px;
+  }
+
+  article h2 {
+    font-size: 18px;
+    margin-top: 11px;
+    margin-bottom: -8px;
   }
 
   article .content {
     padding-left: 7px;
+  }
+
+  article .content ul {
+    padding-left: 23px;
   }
 
   footer {
