@@ -207,6 +207,12 @@ article .content ul.moments li .month {
     padding-left: 7px;
   }
 
+  article .content blockquote {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Helvetica Neue", Arial, "Hiragino Sans GB", sans-serif;
+  }
+
   article .content ul {
     padding-left: 23px;
   }
