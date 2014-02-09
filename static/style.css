@@ -113,6 +113,11 @@ article .content {
   padding-left: 17px;
 }
 
+article .content blockquote {
+  margin-left: 24px;
+  font-family: Georgia, "Songti SC", serif;
+}
+
 article .content a {
   border: none;
   font-weight: bold;
