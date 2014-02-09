@@ -93,6 +93,17 @@ h1 {
   line-height: 1.1em;
 }
 
+body > h1 a {
+  border: none;
+}
+body > h1 a:link,
+body > h1 a:visited {
+  color: #ddd;
+}
+body > h1 a:hover {
+  color: #999;
+}
+
 .hang {
   margin-left: -0.64em;
 }
@@ -108,7 +119,7 @@ article h1 a {
 }
 
 article h2 {
-  font-size: 16px;
+  font-size: 15px;
   margin-top: 16px;
   margin-bottom: 4px;
 }
