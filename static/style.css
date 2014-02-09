@@ -93,6 +93,10 @@ h1 {
   line-height: 1.1em;
 }
 
+.hang {
+  margin-left: -0.64em;
+}
+
 article h1 {
   margin: 36px 0 18px 0;
   font-size: 16px;
