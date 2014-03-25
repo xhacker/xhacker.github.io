@@ -149,6 +149,10 @@ article footer {
   color: #888;
 }
 
+article #disqus_thread {
+  margin-top: 20px;
+}
+
 #previous {
   margin-top: 14px;
   font-size: 15px;
