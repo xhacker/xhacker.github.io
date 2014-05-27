@@ -142,6 +142,10 @@ article .content ul {
   padding-left: 20px;
 }
 
+article .content .footnotes {
+  border-top: 1px solid #ccc;
+}
+
 article footer {
   font-size: 12px;
   text-align: right;

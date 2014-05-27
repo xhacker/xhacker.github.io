@@ -5,3 +5,5 @@ author: Xhacker
 license: <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY</a>
 description: Xhacker Liu’s personal blog.
 url: http://blog.xhacker.im
+
+markdown: kramdown

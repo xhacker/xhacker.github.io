@@ -10,6 +10,7 @@ HDMI 1.3 中引入了 High Speed（也叫 category 2）和 Standard（也叫 cat
 HDMI 1.4 引入了 Ethernet Channel，可以提供网络连接。
 
 所以，总共就四种线 [^1]：
+
 * Standard
 * Standard with Ethernet
 * High Speed
