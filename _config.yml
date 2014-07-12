@@ -7,3 +7,5 @@ description: Xhacker Liu’s personal blog.
 url: http://blog.xhacker.im
 
 markdown: kramdown
+kramdown:
+  input: GFM
