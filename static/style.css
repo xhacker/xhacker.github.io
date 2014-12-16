@@ -200,8 +200,12 @@ article .content ul.moments li .month {
    ========================================================================== */
 
 @media only screen and (max-device-width: 480px) {
-  body {
+  html {
     width: 100%;
+  }
+
+  body {
+    width: auto;
     padding: 20px 15px;
     font-size: 17px;
     line-height: 26px;
