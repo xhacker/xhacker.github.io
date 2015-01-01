@@ -183,6 +183,11 @@ article .content ul.moments {
   padding-left: 4px;
 }
 
+article .content ul.moments ul {
+  margin: 0;
+  padding-left: 24px;
+}
+
 article .content ul.io li:first-letter {
   font-family: Menlo, Monaco, "DejaVu Sans Mono", monospace;
   font-weight: bold;
