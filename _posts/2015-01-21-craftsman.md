@@ -16,12 +16,12 @@ title: 精工细作
 * [Sip](http://theolabrothers.com)：精致好用的取色器。来自 [André Gonçalves](http://andre-goncalves.com) 和 [Rui Aureliano](http://ruiaureliano.com) 兄弟。
 * [Texpad](https://www.texpadapp.com)：「Research is hard, writing should be easy.」来自 Duncan P Steele 和 Jawad A Deo——[两个喜欢 Mac 的理论物理博士](https://www.texpadapp.com/aboutus)。
 * [Letterpress](http://www.atebits.com/letterpress/)：交互可爱无比的拼字游戏。来自 [Loren Brichter](https://twitter.com/lorenb)，嗯就是发明下拉刷新的那个家伙。
-* [Inboard](http://inboardapp.com)：整理设计素材的工具，比 Ember、Pixa、Sparkbox 都要好。来自 [Davis Siksnans](https://twitter.com/davissiksnans)、[Gustavs Cirulis](http://gustavscirulis.com) 和 [我](http://xhacker.im)。别急下载，网站上的版本太老了，新版已经提交，即将上架。:)
+* [Inboard](http://inboardapp.com)：整理设计素材的工具，比 Ember、Pixa、Sparkbox 都要好。来自 [Davis Siksnans](https://twitter.com/davissiksnans)、[Gustavs Cirulis](http://gustavscirulis.com) 和 [我](http://xhacker.im)。别急下载，网站上的版本太老了 bug 有点多，正式版已经提交，即将上架。:)
 
 独立开发者看不下去别的 app。他们为自己写 app，他们没有 deadline 和盈利目标，他们精工细作，他们把自己的品味和质量标准贯彻到底。
 
 [^1]: 不禁感叹 Snow Leopard 的伟大。
 [^2]: 作为一个开发者，我又比普通用户幸福很多。如果 app 是开源的，便可以去改掉自己不喜欢的部分。就算作者不 merge，起码可以自己用。所以我一直觉得，能开源就开源吧。如果没有真正的技术壁垒，开源不会造成什么损失。相反，开源可以让有需要的人修改、让新手学习，这些都是巨大的好处。
 [^3]: 其余如 Tweetbot、Reeder、Sketch、Sublime Text 等耳熟能详的 app 就不再赘述。
-[^4]: 刚刚惊奇的发现 Transit [已经有一个七人的团队了](http://transitapp.com/about)。
+[^4]: 刚刚惊奇地发现 Transit [已经有一个七人的团队了](http://transitapp.com/about)。
 
