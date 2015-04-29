@@ -124,6 +124,12 @@ article h2 {
   margin-bottom: 0.3em;
 }
 
+article img {
+  display: block;
+  border: 1px solid #ddd;
+  margin: 2em auto;
+}
+
 article .content {
   padding-left: 1.2em;
 }
