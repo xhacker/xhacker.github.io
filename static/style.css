@@ -228,6 +228,7 @@ article .content ul.moments li .month {
 
   article h1 {
     font-size: 19px;
+    line-height: 24px;
   }
 
   article h2 {
@@ -248,6 +249,11 @@ article .content ul.moments li .month {
 
   article .content ul {
     padding-left: 23px;
+  }
+
+  article img {
+    max-width: 100%;
+    margin: 1em auto;
   }
 
   footer {
