@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Cool Companies
+title: 如果有机会我想去这些公司玩玩
 ---
-
-如果有机会我想去这些公司玩玩。
 
 * Ironhide：游戏工作室，代表作 Kingdom Rush。质量极高，画风极赞。
 * FiftyThree：Paper 给人们的创造力一个宣泄的通道。iPad 上可以只有她。
