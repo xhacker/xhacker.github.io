@@ -11,7 +11,7 @@ Quark Shell 通过一套非常简洁的 JavaScript API 提供系统功能，比�
 
 API 大概长这样：
 
-{% highlight js linenos=table %}
+{% highlight js %}
 quark.setLabel("03:14 AM")
 quark.setLaunchAtLogin(true)
 

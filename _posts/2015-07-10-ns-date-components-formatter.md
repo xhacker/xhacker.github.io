@@ -16,7 +16,7 @@ NSDateComponentsFormatter 有很多属性可以设置，比如：
 
 完整的代码参考：
 
-{% highlight swift linenos=table %}
+{% highlight swift %}
 let formatter = NSDateComponentsFormatter()
 formatter.unitsStyle = .Abbreviated
 formatter.includesApproximationPhrase = true
