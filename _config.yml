@@ -9,3 +9,4 @@ url: http://blog.xhacker.im
 markdown: kramdown
 kramdown:
   input: GFM
+  footnote_backlink: '&#8617;&#65038;'
