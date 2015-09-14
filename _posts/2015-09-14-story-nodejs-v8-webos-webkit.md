@@ -3,7 +3,7 @@ layout: post
 title: Node.js、V8、webOS 和 WebKit 的故事
 ---
 
-<p class="comment">/* 这篇文章于一年多前写就，一直没有放出来。没有什么主题，就是像讲故事一样随便聊聊 Node.js、V8、webOS 和 WebKit。*/</p>
+<p class="comment">/* 这篇文章于一年多前写就，我也忘了是为什么写的了。没有什么主题，就是像讲故事一样随便聊聊 Node.js、V8、webOS 和 WebKit。*/</p>
 
 「其实你们后端可以用 Express.js，这样就可以只用 JavaScript 一门语言了。」
 
