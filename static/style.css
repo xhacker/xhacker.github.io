@@ -97,6 +97,20 @@ strong {
   font-weight: 600;
 }
 
+table {
+  margin: 0 auto;
+  text-align: center;
+}
+th, td {
+  padding: 6px 14px;
+}
+td {
+  border: 1px solid #ddd;
+}
+td.advantage {
+  background-color: rgba(144, 209, 36, 0.3);
+}
+
 body > h1 a {
   border: none;
 }
@@ -153,6 +167,10 @@ article .content ul {
 
 article .content .footnotes {
   border-top: 1px solid #ccc;
+}
+
+article .content .comment {
+  color: #999;
 }
 
 article footer {
