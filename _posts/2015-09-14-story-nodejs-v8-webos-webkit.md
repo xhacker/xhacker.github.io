@@ -13,12 +13,12 @@ title: Node.js、V8、webOS 和 WebKit 的故事
 
 眼馋 V8 性能的不止 Ryan Dahl，Palm 曾经昙花一现的 webOS 也是基于 V8 引擎的。Palm 是曾经 PDA 和智能手机的老大哥，可是老旧的 Palm OS 逐渐赶不上互联网时代的变化。就在 iPhone 一代推出之际，他们也在准备自己全新的系统。新的系统代号 Prima，基于已经开发了几年的底层系统 Nova。然而，由于设计缺陷，系统很难实现华丽的 UI——设计师哪怕提出微小的改变，程序员也要花上很长时间实现。几个头头们灵光一闪，说我们不如直接用 HTML 和 JavaScript 构建 UI，HTML 的灵活性使得设计师甚至可以自己修改 UI。他们很快开始尝试，代号 Luna。这个想法在今天看来太正常不过，可在当时却是十分大胆，毕竟手机的性能大不如今。Palm 的高管决定赌一把，他们对 Luna 的团队说，你们放马去干，只是只有一个月时间。于是 Luna 团队如同公司里的创业公司，夜以继日，成品非常惊艳，只是性能不够。恰逢 Chrome 推出，Luna 团队看到了希望，他们用 V8 驱动整个 UI，性能和内存占用的问题迎刃而解[^2]。彼时 Google 也处于开发 Android 的关键阶段，Palm 的工程师只得化名在 Google 的邮件列表询问问题。其后 Matias Duarte 等人基于 Luna 实现了卡片式多任务等至今为人津津乐道的设计，之后的故事则无比伤感 [^3]。
 
-Chrome 超高的效率一部分归功于 V8 引擎，一部分也要归功于 WebKit 内核。Google 的工程师也曾考虑过使用 Firefox 的 Gecko 内核，然而他们最终被 Android 团队说服采用了 WebKit。Android 团队说 WebKit 轻快、易扩展、代码结构清晰 [^1]。WebKit 是 Safari 浏览器的内核，主要由苹果开发 [^4]，可能是苹果对开源界最知名的贡献。而 WebKit 也不是苹果从头写就，这就要说到 Safari 的早期开发过程。2003 年，体态依旧丰盈的乔布斯在 Macworld 上发布了 Safari。在说到采用的技术时，满场的人都在等待一个词，Gecko——Netscape 和其后的 Firefox 采用的排版引擎。可是屏幕上出现了另一个词——KHTML。据称当时场内爆出了「what the fuck!?」的声音 [^5]。KHTML 在 Linux 世界并不新鲜，是 KDE 采用的 HTML 渲染引擎，KDE 团队得知被苹果使用也吓了一跳 [^6]。事实上，Safari 的负责人 Don Melton 之前曾在 Netscape 工作，更是参加了 Netscape 的开源过程 [^7]。这么一个熟悉 Gecko 的人居然选择了当时不如 Gecko 成熟的 KHTML，也是因为 KHTML 清晰的设计和精炼的代码。Safari 和多年后的 Chrome 一样，第一要务是追求速度。Safari 团队为每个 commit 运行 benchmark，一旦速度有降低就要回炉重炼。在这样对速度的压榨下，苹果基于 KHTML、KJS 开发出 WebKit 并且开源。如今一去十年，我们看到 Don Melton 的决定无比正确，WebKit 更是出现在几乎每一个移动平台——iOS、Android、BlackBerry、以及其他。
+Chrome 超高的效率一部分归功于 V8 引擎，一部分也要归功于 WebKit 内核。Google 的工程师也曾考虑过使用 Firefox 的 Gecko 内核，然而他们最终被 Android 团队说服采用了 WebKit。Android 团队说 WebKit 轻快、易扩展、代码结构清晰。WebKit 是 Safari 浏览器的内核，主要由苹果开发 [^4]，可能是苹果对开源界最知名的贡献。而 WebKit 也不是苹果从头写就，这就要说到 Safari 的早期开发过程。2003 年，体态依旧丰盈的乔布斯在 Macworld 上发布了 Safari。在说到采用的技术时，满场的人都在等待一个词，Gecko（Netscape 和 Firefox 采用的排版引擎）。可是屏幕上出现了另一个词——KHTML。据称当时场内爆出了「what the fuck!?」的声音 [^5]。KHTML 在 Linux 世界其实并不新鲜，是 KDE 采用的 HTML 渲染引擎。Safari 的负责人 Don Melton 之前曾在 Netscape 工作，更是参与了 Netscape 的开源过程 [^7]。这么一个熟悉 Gecko 的人居然选择了当时不如 Gecko 成熟的 KHTML，也是因为 KHTML 清晰的设计和精炼的代码 [^6]。Safari 和多年后的 Chrome 一样，第一要务是追求速度。Safari 团队为每个 commit 运行 benchmark，一旦速度有降低就要回炉重炼。在这样对速度的压榨下，苹果基于 KHTML、KJS 开发出 WebKit 并且开源。如今一去十年，我们看到 Don Melton 的决定无比正确，WebKit 更是出现在几乎每一个移动平台——iOS、Android、BlackBerry、以及其他。
 
-[^1]: [Google Chrome Comics, p14](http://www.google.com/googlebooks/chrome/med_14.html)
+[^1]: 参见 Google Chrome 发布时一同发布的漫画，[第 14 页](http://www.google.com/googlebooks/chrome/med_14.html)。
 [^2]: 采用 webOS 的第一款手机 Palm Prē 只有 256 MB 内存，却可以流畅打开很多个基于 web 的卡片。
-[^3]: [Pre to postmortem: the inside story of the death of Palm and webOS](http://www.theverge.com/2012/6/5/3062611/palm-webos-hp-inside-story-pre-postmortem)
+[^3]: The Verge 的长篇 [Pre to postmortem: the inside story of the death of Palm and webOS](http://www.theverge.com/2012/6/5/3062611/palm-webos-hp-inside-story-pre-postmortem) 详细讲述了 webOS 的兴衰。
 [^4]: 随后 Google 日渐成为 WebKit 开发的主力，后来更是 fork 出自己的内核 Blink，与苹果分道扬镳。
-[^5]: [Safari is released to the world](http://donmelton.com/2013/01/10/safari-is-released-to-the-world/)
-[^6]: [(fwd) Greetings from the Safari team at Apple Computer](http://marc.info/?m=104197092318639)
-[^7]: 2000 年的纪录片《Code Rush》记载了这一过程。
+[^5]: Don Melton 的博文 [Safari is released to the world](http://donmelton.com/2013/01/10/safari-is-released-to-the-world/)。
+[^6]: Don Melton 在 Steve Jobs 发布 Safari 后，向 KDE 项目[发邮件](http://marc.info/?m=104197092318639)致谢。
+[^7]: 2000 年的纪录片《[Code Rush](https://en.wikipedia.org/wiki/Code_Rush)》记载了这一过程。

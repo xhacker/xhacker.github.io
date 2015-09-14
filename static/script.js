@@ -3,6 +3,7 @@ $(document).ready(function() {
         if ($(this).text()[0] == '《' ||
             $(this).text()[0] == '〈') {
             $(this).addClass('hang');
-        };
-    })
+        }
+    });
+    $.bigfoot();
 });
