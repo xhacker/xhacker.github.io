@@ -143,6 +143,12 @@ article h2 {
   margin-bottom: 0.3em;
 }
 
+article h3 {
+  font-size: 1em;
+  margin-top: 1.15em;
+  margin-bottom: 0;
+}
+
 article img {
   display: block;
   margin: 2em auto;
