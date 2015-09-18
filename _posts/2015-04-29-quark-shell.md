@@ -5,7 +5,7 @@ title: Quark Shell：用 HTML + JS 编写 Mac Menubar App
 
 [Quark Shell](https://github.com/HackPlan/quark-shell-mac) 可以让你用 HTML 和 JavaScript 编写 Mac menubar app，有点像 Electron（原 Atom Shell）和 MacGap，但专注于 menubar app。
 
-<img alt="Screenshot" width="455" src="/static/images/pomotodo-mac.png">
+<img class="bordered" alt="Screenshot" width="455" src="/static/images/pomotodo-mac.png">
 
 Quark Shell 通过一套非常简洁的 JavaScript API 提供系统功能，比如通知、修改 menubar 图标、设置自动启动。Quark Shell 还提供了一个原生的偏好设置面板，甚至可以添加 native 的快捷键录制组件。
 
