@@ -145,8 +145,25 @@ article h2 {
 
 article img {
   display: block;
-  border: 1px solid #ddd;
   margin: 2em auto;
+  max-width: 100%;
+}
+article img.bordered {
+  border: 1px solid #ddd;
+}
+
+article figure {
+  margin: 1.5em auto 2em auto;
+}
+article figure img {
+  margin: 0 auto;
+}
+article figure figcaption {
+  text-align: center;
+  width: 80%;
+  margin: -25px auto 0 auto;
+  font-size: 0.9em;
+  color: #666;
 }
 
 article .content {
@@ -283,8 +300,18 @@ article .content ul.moments li .month {
   }
 
   article img {
-    max-width: 100%;
     margin: 1em auto;
+  }
+
+  article figure {
+    margin: 1em auto;
+  }
+  article figure img {
+    margin: 0 auto;
+  }
+  article figure figcaption {
+    width: 90%;
+    margin: -5px auto 0 auto;
   }
 
   footer {
