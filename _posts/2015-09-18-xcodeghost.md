@@ -3,7 +3,7 @@ layout: post
 title: XcodeGhost 的警示，App Sandboxing 和 Gatekeeper
 ---
 
-XcodeGhost 给我们带来的教训不止是要从正规的地方下载 Xcode，而是要尽可能只使用在 sandbox 中的（Mac App Store 上的 app 都在 sandbox 里）。再不济也切记不要关闭 Gatekeeper。
+XcodeGhost 给我们带来的教训不止是要从正规的地方下载 Xcode，而是要尽可能只使用在 sandbox 中的（Mac App Store 上的 app 都在 sandbox 里）app。再不济也切记不要关闭 Gatekeeper。
 
 <figure>
     <img alt="Activity Monitor" width="815" src="/static/images/xcodeghost/sandbox.png">
