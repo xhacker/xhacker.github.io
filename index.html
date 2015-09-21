@@ -8,7 +8,11 @@ layout: index
 <article>
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <div class="content">
-  {{ post.excerpt }}
+  {% if post.content contains '<!-- more -->' %}
+    {{ post.content | split:'<!-- more -->' | first }}
+  {% else %}
+    {{ post.excerpt }}
+  {% endif %}
   </div>
   <footer><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date_to_string }}</time></footer>
 </article>
