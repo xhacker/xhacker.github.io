@@ -167,9 +167,12 @@ article figure img {
 article figure figcaption {
   text-align: center;
   width: 80%;
-  margin: -25px auto 0 auto;
+  margin: 10px auto 0 auto;
   font-size: 0.9em;
   color: #666;
+}
+article figure figcaption.with-shadow {
+  margin: -25px auto 0 auto;
 }
 
 article .content {
@@ -317,6 +320,9 @@ article .content ul.moments li .month {
   }
   article figure figcaption {
     width: 90%;
+    margin: 5px auto 0 auto;
+  }
+  article figure figcaption.with-shadow {
     margin: -5px auto 0 auto;
   }
 

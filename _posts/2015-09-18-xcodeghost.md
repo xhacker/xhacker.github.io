@@ -7,7 +7,7 @@ XcodeGhost 给我们带来的教训不止是要从正规的地方下载 Xcode，
 
 <figure>
     <img alt="Activity Monitor" width="815" src="/static/images/xcodeghost/sandbox.png">
-    <figcaption>使用 Activity Monitor 可以查看一个进程是否在 sandbox 中。如果没有 Sandbox 列，请在表头处右键选中 Sandbox。</figcaption>
+    <figcaption class="with-shadow">使用 Activity Monitor 可以查看一个进程是否在 sandbox 中。如果没有 Sandbox 列，请在表头处右键选中 Sandbox。</figcaption>
 </figure>
 
 ## App Sandboxing
@@ -18,7 +18,7 @@ XcodeGhost 给我们带来的教训不止是要从正规的地方下载 Xcode，
 
 <figure>
     <img alt="Open Dialog" width="816" src="/static/images/xcodeghost/open-dialog.png">
-    <figcaption>对于一个 sandboxed app 来说，在你用 OS X 自带的打开对话框打开文件时，你就为它授予了读写这个文件的权限。</figcaption>
+    <figcaption class="with-shadow">对于一个 sandboxed app 来说，在你用 OS X 自带的打开对话框打开文件时，你就为它授予了读写这个文件的权限。</figcaption>
 </figure>
 
 ## Gatekeeper
@@ -27,17 +27,17 @@ Gatekeeper 是 OS X 上用于筛查恶意软件的机制。Safari、Chrome、Fir
 
 <figure>
     <img alt="Activity Monitor" width="780" src="/static/images/xcodeghost/gatekeeper.png">
-    <figcaption>请<strong>一定</strong>不要选择第三项，第三项会关闭 Gatekeeper。</figcaption>
+    <figcaption class="with-shadow">请<strong>一定</strong>不要选择第三项，第三项会关闭 Gatekeeper。</figcaption>
 </figure>
 
 <figure>
     <img alt="Activity Monitor" width="593" src="/static/images/xcodeghost/valid-sign.png">
-    <figcaption>这个对话框意味着 app 有数字签名且签名合法。</figcaption>
+    <figcaption class="with-shadow">这个对话框意味着 app 有数字签名且签名合法。</figcaption>
 </figure>
 
 <figure>
     <img alt="Activity Monitor" width="532" src="/static/images/xcodeghost/no-sign.png">
-    <figcaption>这个对话框意味着 app 无有效数字签名。</figcaption>
+    <figcaption class="with-shadow">这个对话框意味着 app 无有效数字签名。</figcaption>
 </figure>
 
 虽然存在风险，但你至少可以确认有签名的 app 是签名者编写的且之后没有被篡改过。而一个没有签名的 app 可能被植入任何恶意代码而不被察觉，并且如之前所说，它有访问当前用户所有文件的权限。
