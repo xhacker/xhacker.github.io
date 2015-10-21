@@ -65,7 +65,7 @@ Magic Trackpad 是我之前很长时间唯一使用的定位设备。
 
 一句话，这是一个左边有一大堆按键的好鼠标……
 
-<ul class="io">
+<ul class="io" style="margin-bottom: 2em;">
     <li>+ 定位极精准</li>
     <li>+ 手感好</li>
     <li>+ 比起<abbr title="Deathadder">死亡加法器</abbr>左侧按键多，可自定义</li>
