@@ -253,6 +253,12 @@ article .content ul.moments li .month {
   margin-right: 6px;
 }
 
+article .content .rating {
+  font-size: .7em;
+  margin-left: 8px;
+  color: #aaa;
+}
+
 /* =============================================================================
    Media Queries
    ========================================================================== */
