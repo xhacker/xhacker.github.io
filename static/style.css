@@ -83,8 +83,10 @@ body {
 }
 
 a {
-  border-bottom: 1px dotted;
-  border-color: #aaa;
+  border-bottom: 3px solid rgba(68, 161, 1, 0.3);
+}
+a:hover {
+  color: #44A200;
 }
 
 h1 {
