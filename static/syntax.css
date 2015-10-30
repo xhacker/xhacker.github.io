@@ -10,6 +10,9 @@
 .highlight pre {
     margin: 0;
     padding: 8px 10px;
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
 }
 .highlight pre,
 .highlight code {

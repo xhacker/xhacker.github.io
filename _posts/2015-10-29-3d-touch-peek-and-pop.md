@@ -7,7 +7,7 @@ title: 3D Touch Peek and Pop 二三事
 
 先来看一下 Expense 的效果：
 
-<video class="bordered" style="border-color: #f3f3f3" width="375" height="667" autoplay loop controls>
+<video class="bordered" style="border-color: #f3f3f3" width="375" autoplay loop controls>
   <source src="/static/images/3d-touch-peek-and-pop/expense-peek-and-pop.mp4" type="video/mp4">
 </video>
 
@@ -59,4 +59,4 @@ Expense 在 preview 阶段就用了完全不同的 UI：
 }
 {% endhighlight %}
 
-另外，Expense 真的，真的，快要发布了。:)
+最后，Expense 真的，真的，快要发布了。:)

@@ -162,18 +162,6 @@ article video.bordered {
   border: 1px solid #ddd;
 }
 
-article .side-by-side {
-  width: 780px;
-  margin-left: -40px;
-}
-article .side-by-side img {
-  display: inline-block;
-  margin: 1em auto;
-}
-article .side-by-side img:nth-child(2) {
-  float: right;
-}
-
 article figure {
   margin: 1.5em auto 2em auto;
 }
@@ -277,6 +265,20 @@ article .content .rating {
 /* =============================================================================
    Media Queries
    ========================================================================== */
+
+@media only screen and (min-device-width: 480px) {
+  article .side-by-side {
+    width: 780px;
+    margin-left: -40px;
+  }
+  article .side-by-side img {
+    display: inline-block;
+    margin: 1em auto;
+  }
+  article .side-by-side img:nth-child(2) {
+    float: right;
+  }
+}
 
 @media only screen and (max-device-width: 480px) {
   html {
