@@ -271,11 +271,13 @@ article .content .rating {
     width: 780px;
     margin-left: -40px;
   }
-  article .side-by-side img {
+  article .side-by-side > img,
+  article .side-by-side > figure {
     display: inline-block;
     margin: 1em auto;
   }
-  article .side-by-side img:nth-child(2) {
+  article .side-by-side > img:nth-child(2),
+  article .side-by-side > figure:nth-child(2) {
     float: right;
   }
 }
