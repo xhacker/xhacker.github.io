@@ -291,12 +291,7 @@ article .content .rating {
     width: auto;
     padding: 20px 15px;
     font-size: 17px;
-    line-height: 26px;
-  }
-
-  a {
-    border-bottom: 1px dotted;
-    border-color: #bbb !important;
+    line-height: 28px;
   }
 
   table {
@@ -310,7 +305,7 @@ article .content .rating {
 
   article h1 {
     font-size: 19px;
-    line-height: 24px;
+    line-height: 30px;
   }
 
   article h2 {
