@@ -280,6 +280,12 @@ article .content .rating {
   article .side-by-side > figure:nth-child(2) {
     float: right;
   }
+
+  article .contribution-graph {
+    width: 715px;
+    max-width: inherit;
+    margin-left: -17px;
+  }
 }
 
 @media only screen and (max-device-width: 480px) {
