@@ -81,6 +81,9 @@ body {
   font-size: 17px;
   line-height: 1.7em;
 }
+.force-chinese-font {
+  font-family: "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", sans-serif;
+}
 
 a {
   border-bottom: 3px solid rgba(68, 161, 1, 0.3);
