@@ -16,7 +16,7 @@
 }
 .highlight pre,
 .highlight code {
-    font-family: Menlo, Monaco, "Lucida Console", monospace;
+    font-family: "SF Mono", Menlo, Monaco, "Lucida Console", monospace;
 }
 .highlight .c { color: #93a1a1 } /* Comment */
 .highlight .err { color: #586e75 } /* Error */

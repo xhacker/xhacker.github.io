@@ -77,7 +77,7 @@ body {
   width: 701px;
   margin: auto;
   padding: 72px;
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", sans-serif;
   font-size: 17px;
   line-height: 1.7em;
 }
@@ -100,6 +100,10 @@ h1 {
 
 strong {
   font-weight: 600;
+}
+
+code {
+  font-family: "SF Mono", Monaco, monospace;
 }
 
 table {
@@ -227,7 +231,6 @@ body > footer {
   line-height: 1.65em;
   text-align: right;
   margin-top: 2.15em;
-  padding-right: 0.8em;
   color: #888;
 }
 
@@ -256,6 +259,7 @@ article .content ul.io li:first-letter {
 
 article .content ul.moments li .month {
   font-weight: bold;
+  font-variant-numeric: tabular-nums;
   margin-right: 6px;
 }
 
