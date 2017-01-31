@@ -9,7 +9,7 @@ title: 精工细作
 
 果然。刚刚检阅了一遍 iOS 和 OS X 上的 app，发现最为精致好玩的几乎全部出自独立开发者之手 [^3]：
 
-* [Transit](http://transitapp.com)：查看公交时刻。界面非常有质感，作者为每个城市选择了不同的颜色。来自 [Sam Vermette](http://samvermette.com) [^4]。如果你是 iOS 开发者，一定对 [SVProgressHUD](https://github.com/TransitApp/SVProgressHUD) 有印象。
+* [Transit](http://transitapp.com)：查看公交时刻。介面非常有质感，作者为每个城市选择了不同的颜色。来自 [Sam Vermette](http://samvermette.com) [^4]。如果你是 iOS 开发者，一定对 [SVProgressHUD](https://github.com/TransitApp/SVProgressHUD) 有印象。
 * [Soulver](http://www.acqualia.com/soulver/)：可以计算的文本编辑器。来自 [Acqualia](http://www.acqualia.com) 的 Zac Cohan 和 Nik Youdale。
 * [Moom](http://manytricks.com/moom/)：缩放窗口利器。来自 [Many Tricks](http://manytricks.com) 的 Peter Maurer 和 Rob Griffiths。
 * [LilyView](http://lilyviewapp.com)：优雅简单的图片查看器，有点像 Picasa 的 Photo Viewer。来自 Taras Brizitsky、Val Komarov 和 Oleg Krupnov。

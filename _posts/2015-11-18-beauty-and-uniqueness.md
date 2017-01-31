@@ -5,7 +5,7 @@ title: Castro vs. Overcast：设计上的美观与功能上的独特
 
 我最早听播客是用苹果出的 Podcasts，[Overcast](https://overcast.fm/) 推出后就受 Smart Speed 的吸引而换了过去。在 [Castro](http://castro.fm) [改为 free + patronage 模式](http://blog.supertop.co/post/133030336462/castro-15)后，有幸体验了一下，感觉 Castro 在设计上更为美观，而 Overcast 在功能上更为独特。我最终还是选择了后者。
 
-Castro 和 Overcast 两个应用都很漂亮，都躺在我的 [Inboard](http://inboardapp.com) 里。打开 Overcast 的截图，我会感觉这是用一般 UIKit 控件完成的很好的作品。你可以认为 Overcast 是 iOS app 的标准范本，但我也能做到。而 Castro 界面不落俗套、交互方式大胆前卫（下图不太能说明问题，如果没用过请看[官网](http://castro.fm)上的视频和截图），是我的水平不能企及的，我由衷地欣赏。一个像优秀的习作，一个像大师的手笔 [^1]。设计是一门技术，仅从难度上说，也可以客观地认为 Castro 的设计更好。
+Castro 和 Overcast 两个应用都很漂亮，都躺在我的 [Inboard](http://inboardapp.com) 里。打开 Overcast 的截图，我会感觉这是用一般 UIKit 控件完成的很好的作品。你可以认为 Overcast 是 iOS app 的标准范本，但我也能做到。而 Castro 介面不落俗套、交互方式大胆前卫（下图不太能说明问题，如果没用过请看[官网](http://castro.fm)上的视频和截图），是我的水平不能企及的，我由衷地欣赏。一个像优秀的习作，一个像大师的手笔 [^1]。设计是一门技术，仅从难度上说，也可以客观地认为 Castro 的设计更好。
 
 <div class="side-by-side">
     <figure>

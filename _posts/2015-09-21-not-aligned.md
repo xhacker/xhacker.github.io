@@ -3,7 +3,7 @@ layout: post
 title: 什么时候不要对齐？
 ---
 
-在 UI 设计中，一个重要的原则就是保持元素尽量整齐。然而，在有的应用场景我们应该尽可能不对齐。比如一个显示邮件内容和附件的界面，附件放在一个可以横向滑动的 view 里。
+在 UI 设计中，一个重要的原则就是保持元素尽量整齐。然而，在有的应用场景我们应该尽可能不对齐。比如一个显示邮件内容和附件的介面，附件放在一个可以横向滑动的 view 里。
 
 <figure>
     <img alt="Bad mail client example" width="300" src="/static/images/not-aligned/bad.png">
