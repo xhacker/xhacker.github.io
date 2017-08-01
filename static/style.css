@@ -79,10 +79,12 @@ body {
   padding: 72px;
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", sans-serif;
   font-size: 17px;
+  font-synthesis: none;
   line-height: 1.7em;
 }
 body > h1 {
   font-family: ".SFNSDisplay-Bold", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  font-weight: unset;
 }
 .force-chinese-font {
   font-family: "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", sans-serif;
