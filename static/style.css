@@ -83,7 +83,7 @@ body {
   line-height: 1.7em;
 }
 body > h1 {
-  font-family: ".SFNSDisplay-Bold", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  font-family: ".SFNSDisplay-Bold", ".SFUIDisplay-Bold", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
   font-weight: unset;
 }
 .force-chinese-font {
