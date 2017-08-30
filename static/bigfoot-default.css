@@ -214,7 +214,7 @@
   background: #fafafa;
   border-radius: 0.5em;
   -webkit-font-smoothing: subpixel-antialiased;
-  line-height: normal;
+  line-height: 1.5em;
 }
 .bigfoot-footnote__content img {
   max-width: 100%;
