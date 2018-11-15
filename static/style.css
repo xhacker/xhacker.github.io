@@ -88,6 +88,9 @@ body > h1 {
 .force-chinese-font {
   font-family: "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", sans-serif;
 }
+.rss-only {
+  display: none;
+}
 
 a {
   border-bottom: 3px solid rgba(68, 161, 1, 0.3);
@@ -140,10 +143,15 @@ body > h1 a:hover {
   margin-left: -0.4em;
 }
 
+article h1,
+article h2 {
+  font-family: ".SFNSDisplay-Bold", ".SFUIDisplay-Bold", PingFangSC-Semibold, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  font-weight: 600;
+}
+
 article h1 {
   margin: 2.3em 0 1.15em 0;
   font-size: 1.14em;
-  font-weight: 600;
 }
 
 article h1 a {
@@ -176,22 +184,18 @@ article img.bordered,
 article video.bordered {
   border: 1px solid #ddd;
 }
-
-article figure {
-  margin: 1.5em auto 2em auto;
+article a.frame {
+  display: block;
+  margin: auto;
+  border: 3px solid #eee;
+  padding: 5px;
+  width: 75%;
 }
-article figure img {
-  margin: 0 auto;
+article a.frame:hover {
+  border-color: #bbb;
 }
-article figure figcaption {
-  text-align: center;
-  width: 80%;
-  margin: 10px auto 0 auto;
-  font-size: 0.9em;
-  color: #666;
-}
-article figure figcaption.with-shadow {
-  margin: -25px auto 0 auto;
+article a.frame.square {
+  width: 50%;
 }
 
 article .map {
@@ -207,8 +211,9 @@ article .content {
 }
 
 article .content blockquote {
-  margin-left: 1.7em;
-  font-family: Georgia, "Songti SC", serif;
+  margin-left: 0.15em;
+  padding-left: 1.1em;
+  border-left: 5px solid #eee;
 }
 
 article .content a {
@@ -217,6 +222,31 @@ article .content a {
 
 article .content ul {
   padding-left: 1.4em;
+}
+
+article .content figure {
+  margin: 1.5em auto 2em auto;
+}
+article .content figure img,
+article .content figure video {
+  margin: 0 auto;
+}
+article .content figure figcaption {
+  text-align: center;
+  width: 80%;
+  margin: 10px auto 0 auto;
+  font-size: 0.9em;
+  color: #666;
+}
+article .content figure figcaption.with-shadow {
+  margin: -25px auto 0 auto;
+}
+article .content figure figcaption a,
+article .content figure figcaption a:visited {
+  color: #666;
+}
+article .content figure figcaption a:hover {
+  color: #44A200;
 }
 
 article .content .footnotes {
@@ -319,13 +349,22 @@ article .content .rating {
 @media only screen and (max-device-width: 480px) {
   html {
     width: 100%;
+    max-width: 720px;
+    margin: auto;
   }
 
   body {
     width: auto;
     padding: 20px 15px;
+    padding-bottom: calc(15px + env(safe-area-inset-bottom));
     font-size: 17px;
     line-height: 28px;
+  }
+
+  @supports(padding:calc(max(0px))) {
+    body {
+      padding-left: calc(max(15px, env(safe-area-inset-left) + 10px));
+      padding-right: calc(max(15px, env(safe-area-inset-right) + 10px));
   }
 
   table {
@@ -349,13 +388,11 @@ article .content .rating {
   }
 
   article .content {
-    padding-left: 7px;
+    padding: 0 7px;
   }
 
   article .content blockquote {
-    margin-left: 20px;
     margin-right: 20px;
-    font-family: "Helvetica Neue", Arial, "Hiragino Sans GB", sans-serif;
   }
 
   article .content ul {
@@ -365,11 +402,18 @@ article .content .rating {
   article img {
     margin: 1em auto;
   }
+  article a.frame {
+    width: 85%;
+  }
+  article a.frame.square {
+    width: 65%;
+  }
 
   article figure {
     margin: 1em auto;
   }
-  article figure img {
+  article figure img,
+  article figure video {
     margin: 0 auto;
   }
   article figure figcaption {
