@@ -194,6 +194,14 @@ article figure figcaption.with-shadow {
   margin: -25px auto 0 auto;
 }
 
+article .map {
+  height: 400px;
+  margin-bottom: 1em;
+}
+article .map a {
+  border: none;
+}
+
 article .content {
   padding-left: 1.2em;
 }
