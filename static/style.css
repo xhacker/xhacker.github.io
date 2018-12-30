@@ -76,17 +76,20 @@ body {
   width: 701px;
   margin: auto;
   padding: 72px;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", sans-serif;
+  font-family: -apple-system, system-ui, "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", sans-serif;
   font-size: 17px;
   font-synthesis: none;
   line-height: 1.7em;
 }
 body > h1 {
-  font-family: ".SFNSDisplay-Bold", ".SFUIDisplay-Bold", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
-  font-weight: unset;
+  font-family: /* for Safari */ ".SFNSDisplay-Bold", ".SFUIDisplay-Bold", /* for Chrome */ "SF UI Display", -apple-system, system-ui, sans-serif;
+  font-weight: bold;
 }
 .force-chinese-font {
   font-family: "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", sans-serif;
+}
+.force-latin-font {
+  font-family: ".SFNSText", ".SFUIText", "SF UI Text", -apple-system, system-ui, sans-serif;
 }
 .rss-only {
   display: none;
@@ -224,6 +227,11 @@ article .content ul {
   padding-left: 1.4em;
 }
 
+article .content ul ul {
+  margin: 0;
+  padding-left: 1.1em;
+}
+
 article .content figure {
   margin: 1.5em auto 2em auto;
 }
@@ -292,15 +300,13 @@ article .content ul.moments {
   padding-left: 4px;
 }
 
-article .content ul.moments ul {
-  margin: 0;
-  padding-left: 1.7em;
+article .content ul.moments > li {
+  text-indent: -22px;
+  margin-left: 22px;
 }
 
-article .content ul.io li:first-letter {
-  font-family: Menlo, Monaco, "DejaVu Sans Mono", monospace;
-  font-weight: bold;
-  margin-right: 6px;
+article .content ul.moments > li ul {
+  text-indent: 0;
 }
 
 article .content ul.moments li .month {
@@ -312,6 +318,12 @@ article .content ul.moments li .month {
   width: 36px;
   text-align: right;
   margin-left: -25px;
+}
+
+article .content ul.io li:first-letter {
+  font-family: Menlo, Monaco, "DejaVu Sans Mono", monospace;
+  font-weight: bold;
+  margin-right: 6px;
 }
 
 article .content .rating {
