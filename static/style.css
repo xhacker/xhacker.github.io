@@ -179,7 +179,8 @@ article strong.stronger {
 
 article img,
 article video,
-article audio {
+article audio,
+article iframe {
   display: block;
   margin: 2em auto;
   max-width: 100%;
@@ -412,7 +413,8 @@ article .content .rating {
     padding-left: 23px;
   }
 
-  article img {
+  article img,
+  article iframe {
     margin: 1em auto;
   }
   article a.frame {
