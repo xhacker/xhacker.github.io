@@ -216,9 +216,12 @@ article .content {
 }
 
 article .content blockquote {
-  margin-left: 0.15em;
+  margin-left: 0;
   padding-left: 1.1em;
   border-left: 5px solid #eee;
+}
+article .content blockquote:first-child {
+  margin-left: 0.15em;
 }
 
 article .content a {
