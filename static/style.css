@@ -266,7 +266,8 @@ article .content .footnotes {
   border-top: 1px solid #ccc;
 }
 
-article .content .comment {
+article .content .comment,
+article .content del {
   color: #999;
 }
 
