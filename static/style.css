@@ -73,9 +73,9 @@ td { vertical-align: top; }
    Author: Xhacker Liu
    ========================================================================== */
 body {
-  width: 701px;
+  max-width: 701px;
   margin: auto;
-  padding: 72px;
+  padding: 36px;
   font-family: -apple-system, system-ui, "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", sans-serif;
   font-size: 17px;
   font-synthesis: none;
@@ -187,7 +187,8 @@ article iframe {
 }
 article img.bordered,
 article video.bordered {
-  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border: 3px solid #eee;
 }
 article a.frame {
   display: block;
@@ -338,6 +339,40 @@ article .content .rating {
   color: #aaa;
 }
 
+article .side-by-side {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+article .side-by-side > img,
+article .side-by-side > figure {
+  display: inline-block;
+  margin: 1em auto;
+}
+article .side-by-side > img:nth-child(2),
+article .side-by-side > figure:nth-child(2) {
+  float: right;
+}
+article .side-by-side .percent-43 {
+  width: 43.2%;
+}
+article .side-by-side .percent-54 {
+  width: 53.8%;
+}
+
+article .grid {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+}
+article .grid-3 {
+  grid-template-columns: repeat(3, 32%);
+}
+article .grid img {
+  margin: 0.4em auto;
+}
+
 /* 神经病 */
 .TeX-e {
   text-transform: uppercase;
@@ -351,18 +386,18 @@ article .content .rating {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-device-width: 480px) {
-  article .side-by-side {
+@media only screen and (min-width: 520px) {
+  article .side-by-side-wide {
     width: 780px;
     margin-left: -40px;
   }
-  article .side-by-side > img,
-  article .side-by-side > figure {
+  article .side-by-side-wide > img,
+  article .side-by-side-wide > figure {
     display: inline-block;
     margin: 1em auto;
   }
-  article .side-by-side > img:nth-child(2),
-  article .side-by-side > figure:nth-child(2) {
+  article .side-by-side-wide > img:nth-child(2),
+  article .side-by-side-wide > figure:nth-child(2) {
     float: right;
   }
 
@@ -373,19 +408,10 @@ article .content .rating {
   }
 }
 
-@media only screen and (max-device-width: 480px) {
-  html {
-    width: 100%;
-    max-width: 720px;
-    margin: auto;
-  }
-
+@media only screen and (max-width: 520px) {
   body {
-    width: auto;
     padding: 20px 15px;
     padding-bottom: calc(15px + env(safe-area-inset-bottom));
-    font-size: 17px;
-    line-height: 28px;
   }
 
   @supports(padding:calc(max(0px))) {

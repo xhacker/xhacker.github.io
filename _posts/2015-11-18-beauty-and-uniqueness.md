@@ -7,7 +7,7 @@ title: Castro vs. Overcast：设计上的美观与功能上的独特
 
 Castro 和 Overcast 两个应用都很漂亮，都躺在我的 [Inboard](http://inboardapp.com) 里。打开 Overcast 的截图，我会感觉这是用一般 UIKit 控件完成的很好的作品。你可以认为 Overcast 是 iOS app 的标准范本，但我也能做到。而 Castro 介面不落俗套、交互方式大胆前卫（下图不太能说明问题，如果没用过请看[官网](http://castro.fm)上的视频和截图），是我的水平不能企及的，我由衷地欣赏。一个像优秀的习作，一个像大师的手笔 [^1]。设计是一门技术，仅从难度上说，也可以客观地认为 Castro 的设计更好。
 
-<div class="side-by-side">
+<div class="side-by-side-wide">
     <figure>
         <img class="bordered screenshot-375" alt="Castro 截图" width="375" src="/static/images/beauty-and-uniqueness/castro.png">
         <figcaption>Castro 截图</figcaption>
@@ -29,7 +29,7 @@ Overcast 已经达到了「好的设计」的基线 [^2]。对 UIKit 控件的�
 
 ## Twitterrific vs. Tweetbot
 
-<div class="side-by-side">
+<div class="side-by-side-wide">
     <figure>
         <img class="bordered screenshot-375" alt="Twitterrific 截图" width="375" src="/static/images/beauty-and-uniqueness/twitterrific.png">
         <figcaption>Twitterrific 截图</figcaption>

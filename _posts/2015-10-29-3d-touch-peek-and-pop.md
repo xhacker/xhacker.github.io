@@ -17,7 +17,7 @@ title: 3D Touch Peek and Pop 二三事
 
 Expense 在 preview 阶段就用了完全不同的 UI：
 
-<div class="side-by-side">
+<div class="side-by-side-wide">
   <img class="bordered screenshot-375" alt="Expense screenshot for peek" width="375" src="/static/images/3d-touch-peek-and-pop/expense-peek.png">
   <img class="bordered screenshot-375" alt="Expense screenshot for pop" width="375" src="/static/images/3d-touch-peek-and-pop/expense-pop.png">
 </div>
