@@ -19,7 +19,7 @@ title: 非典型义乌流水账
         <img class="bordered percent-43" alt="雷锋的照片" src="/static/images/yiwu/leifeng.jpg">
         <img class="bordered percent-54" alt="雷锋的朋友圈截图" src="/static/images/yiwu/leifeng-wechat.jpg">
     </div>
-    <figcaption>我给雷锋拍了个照，他就拉住我加微信要照片</figcaption>
+    <figcaption>我拍了个照，成功获得雷锋同志的微信</figcaption>
 </figure>
 
 <figure>
