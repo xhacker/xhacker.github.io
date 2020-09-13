@@ -73,11 +73,11 @@ td { vertical-align: top; }
    Author: Xhacker Liu
    ========================================================================== */
 body {
-  max-width: 701px;
+  max-width: 768px;
   margin: auto;
   padding: 36px;
   font-family: -apple-system, system-ui, "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   font-synthesis: none;
   line-height: 1.7em;
 }
