@@ -250,6 +250,7 @@ article .content figure figcaption {
   width: 80%;
   margin: 10px auto 0 auto;
   font-size: 0.9em;
+  line-height: 1.65em;
   color: #666;
 }
 article .content figure figcaption.with-shadow {
