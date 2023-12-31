@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="/static/style.css?v=4">
   <link rel="stylesheet" href="/static/syntax.css">
   <link rel="stylesheet" href="/static/bigfoot-default.css">
+  {% if page.css %}<link rel="stylesheet" href="/static/{{ page.css }}.css">{% endif %}
   <title>{{ page.title }} « {{ site.name }}</title>
 </head>
 <body>

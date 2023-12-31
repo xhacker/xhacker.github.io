@@ -1,0 +1,21 @@
+article {
+    font-size: 17px;
+}
+
+article h2 {
+    color: #333;
+    font-size: 1.2em;
+}
+
+article p {
+    margin: 0.7em 0;
+}
+
+article a, article a:visited {
+    color: #477627;
+    font-weight: normal !important;
+    border-bottom: 1px solid rgba(68, 161, 1, 0.3);
+}
+article a:hover {
+    color: #44A200;
+}
