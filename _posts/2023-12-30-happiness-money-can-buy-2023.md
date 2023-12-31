@@ -46,16 +46,16 @@ css: list
 * [Wildwood Chocolate Berry Berry](https://wildwoodchocolate.com/collections/all/products/berryberry) $14, PDX  
 黑巧配冻干莓子
 
-* [Yum Noodles](https://www.yumnoodles.com) ～$20, SF Bay  
+* [Yum Noodles](https://www.yumnoodles.com) ~$20, SF Bay  
 每周鸡杂粉
 
-* [Pho Ga An Nam](https://www.phogaannam.restaurant) ～$30, SF Bay  
+* [Pho Ga An Nam](https://www.phogaannam.restaurant) ~$30, SF Bay  
 鸡粉鸡饭都好吃
 
-* [Bun Bo Hue Song Huong](https://www.yelp.com/biz/bun-bo-hue-song-huong-san-jose) ～$30, SF Bay  
+* [Bun Bo Hue Song Huong](https://www.yelp.com/biz/bun-bo-hue-song-huong-san-jose) ~$30, SF Bay  
 顺化粉和各种糯米点心
 
-* [Walia Ethiopian Cuisine](https://waliaethiopian.com) ～$50, SF Bay  
+* [Walia Ethiopian Cuisine](https://waliaethiopian.com) ~$50, SF Bay  
 酸酸卷
 
 * [Kitoko Maui](https://www.instagram.com/kitokomaui/) ~$50, Maui HI  
