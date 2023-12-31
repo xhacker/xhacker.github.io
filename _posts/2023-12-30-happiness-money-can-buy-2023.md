@@ -151,7 +151,7 @@ Encore 唱了最喜欢的歌
 * [San Jose Learning Center](http://www.sanjoselearningcenter.com) $400  
 学外语，上 SJLC
 
-* [丸福楼](https://marufukuro.com)$400  
+* [丸福楼](https://marufukuro.com) $400  
 任天堂旧址改的酒店
 
 ## 用
