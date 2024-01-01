@@ -79,6 +79,7 @@ body {
   font-family: -apple-system, system-ui, "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", sans-serif;
   font-size: 18px;
   font-synthesis: none;
+  font-feature-settings: "case";
   line-height: 1.7em;
 }
 body > h1 {
@@ -217,9 +218,15 @@ article .content {
 }
 
 article .content blockquote {
-  margin-left: 0;
-  padding-left: 1.1em;
-  border-left: 5px solid #eee;
+  margin: 1.5em 0;
+  padding: 0.1em 1.05em;
+  border-left: 5px solid #fce897;
+  background-color: #fffdf1;
+  font-size: 0.9em;
+  line-height: 1.7em;
+}
+article .content blockquote p {
+  margin: 0.5em 0;
 }
 article .content blockquote:first-child {
   margin-left: 0.15em;
@@ -374,6 +381,14 @@ article .grid img {
   margin: 0.4em auto;
 }
 
+article .price-tag {
+  margin-top: 0.2em;
+  font-size: 0.85em;
+  line-height: 1.6em;
+  font-weight: 600;
+  color: #3a641e;
+}
+
 /* 神经病 */
 .TeX-e {
   text-transform: uppercase;
@@ -477,6 +492,10 @@ article .grid img {
   }
   article figure figcaption.with-shadow {
     margin: -5px auto 0 auto;
+  }
+
+  article .price-tag {
+    margin-top: 0.5em;
   }
 
   footer {
