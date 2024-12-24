@@ -132,6 +132,11 @@ td.advantage {
   background-color: rgba(144, 209, 36, 0.3);
 }
 
+ruby rt {
+  padding-top: 5px;
+  font-size: 0.65em;
+}
+
 body > h1 a {
   border: none;
 }
