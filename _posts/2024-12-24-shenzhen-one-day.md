@@ -43,7 +43,7 @@ title: 深圳一天
 
 直到店里突然开始放那种极度 cheesy 的大堂音乐。「啊<ruby>这<rp>(</rp><rt>zè</rt><rp>)</rp>首<rp>(</rp><rt>sǒu</rt><rp>)</rp>歌</ruby>我听过！<ruby>这<rp>(</rp><rt>zè</rt><rp>)</rp>首<rp>(</rp><rt>sǒu</rt><rp>)</rp></ruby>歌<ruby>超<rp>(</rp><rt>cāo</rt><rp>)</rp></ruby>——级有名！<ruby>这<rp>(</rp><rt>zè</rt><rp>)</rp></ruby>我绝对听过！」然后他就去找了服务员问这是什么歌。服务员说我也不知道啊这个就是一直放的。
 
-我也不知道，可能是 Gemeni 或者 Suno 或者 Hans Zimmer 或者 Satie 生成的吧。
+我也不知道，可能是 Gemini 或者 Suno 或者 Hans Zimmer 或者 Satie 生成的吧。
 
 左前方斜对面坐着两个男的。这家霸王茶姬是 pet friendly 的，座位旁边有一个突出的小钩子用来拴狗绳。其中一男子突然气势汹汹地跑到服务员处抱怨说这个钩子容易撞到脚。服务员说我们知道了，已经向上面反映过了。男子坐回座位，跟对面说「这要是美国早就被告死了！」
 
