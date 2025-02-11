@@ -81,6 +81,7 @@ body {
   font-synthesis: none;
   font-feature-settings: "case";
   line-height: 1.7em;
+  text-autospace: normal;
 }
 body > h1 {
   font-family: /* for Chrome */ "SF UI Display", -apple-system, system-ui, sans-serif;
