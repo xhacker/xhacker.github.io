@@ -17,11 +17,11 @@ title: 2024快乐价目表
 <p class="price-tag less-spacing">~$100</p>
 牡蛎极好。结账后，看到邻桌端上了一盆热气腾腾的青口……魂牵梦绕。
 
-#### The Hue Restaurant, Bay Area
+#### The Hue Restaurant, SF Bay Area
 <p class="price-tag less-spacing">~$50</p>
 顺化粉。好吃到停止探索、不吃别家了。
 
-#### Ondam, Bay Area
+#### Ondam, SF Bay Area
 <p class="price-tag less-spacing">~$50</p>
 米饭甜如糖粒。
 
