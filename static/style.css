@@ -180,6 +180,13 @@ article h3 {
   margin-bottom: 0;
 }
 
+article h4 {
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 2.2em;
+  margin-bottom: 0;
+}
+
 article strong.stronger {
   font-weight: 800;
 }
@@ -393,6 +400,10 @@ article .price-tag {
   line-height: 1.6em;
   font-weight: 600;
   color: #3a641e;
+}
+
+article .price-tag.less-spacing {
+  margin-bottom: -0.6em;
 }
 
 /* 神经病 */
