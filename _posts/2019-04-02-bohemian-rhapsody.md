@@ -11,7 +11,7 @@ title: 《波西米亚狂想曲》——比真实更真‍实
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2cH5htm6T4E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-然后看到了 [YouTube 上的对比视频](https://www.youtube.com/watch?v=2cH5htm6T4E)，鸬鹚灌顶。电影是可以比真实更真实的。Live Aid 现场的视频几乎全是 Freddie 特写，对乐队和观众照顾不足。电影神一般地还原了 Freddie 夸张的表演和现场状态，还有更好的分辨率和色彩、更宏大的镜头、乐队成员的特写、来自观众的视角。Brain 的头发、Deacon 的花衬衫、Roger 的……Roger 在 Live Aid 视频里几乎没出现好吗。这并不意外。电影是「人造」的、经过设计的。电影可以无数次重拍。电影可以塑造任何想要的角度。但哪个才是真实？真实重要么？哪个更能给一个不在那个时代的人带来如亲临 Live Aid 一般的震撼？……我对所谓「真实的录像才是真实」没有执念。
+然后看到了 [YouTube 上的对比视频](https://www.youtube.com/watch?v=2cH5htm6T4E)，鸬鹚灌顶。电影是可以比真实更真实的。Live Aid 现场的视频几乎全是 Freddie 特写，对乐队和观众照顾不足。电影神一般地还原了 Freddie 夸张的表演和现场状态，还有更好的分辨率和色彩、更宏大的镜头、乐队成员的特写、来自观众的视角。Brian 的头发、Deacon 的花衬衫、Roger 的……Roger 在 Live Aid 视频里几乎没出现好吗。这并不意外。电影是「人造」的、经过设计的。电影可以无数次重拍。电影可以塑造任何想要的角度。但哪个才是真实？真实重要么？哪个更能给一个不在那个时代的人带来如亲临 Live Aid 一般的震撼？……我对所谓「真实的录像才是真实」没有执念。
 
 > The Brian May actor looks more like Brian May then Brian may. —YouTube @TheCynx
 

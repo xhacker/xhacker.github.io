@@ -37,7 +37,7 @@ title: 给自己找不自在之用 TeX 排乐谱
 
 # 音符
 
-音符相对来讲复杂一些，放在 `\startextract` 和 `zendextract` 之间。可以用 `\Notes`、`\en` 等一系列宏用于调整其中音符的间距。实际上有一个叫做 `autosp` 的宏包可以自动调整间距，但 iOS 上不能随便装包，就不用了。
+音符相对来讲复杂一些，放在 `\startextract` 和 `\zendextract` 之间。可以用 `\Notes`、`\en` 等一系列宏用于调整其中音符的间距。实际上有一个叫做 `autosp` 的宏包可以自动调整间距，但 iOS 上不能随便装包，就不用了。
 
 这里用前四个小节示例一下：
 {% highlight tex %}

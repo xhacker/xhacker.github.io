@@ -81,7 +81,7 @@ Food Truck 也要摆盘
 
 ## 喝
 
-* [Stumpton@Kyoto](https://www.stumptowncoffee.com/pages/locations-kyoto-ace-hotel) $5, 京都  
+* [Stumptown@Kyoto](https://www.stumptowncoffee.com/pages/locations-kyoto-ace-hotel) $5, 京都  
 过于惊艳使人生气
 
 * [Flywheel Coffee Roasters](https://flywheelcoffee.com) $15, SF Bay  
@@ -168,7 +168,7 @@ Encore 唱了最喜欢的歌
 * [よじや　おしろい紙](https://www.yojiyacosme.com/c/makeup/gd1158) $12  
 有金粉，使人容光焕发
 
-* [熏玉堂](https://shop.kungyokudo.co.jp) $15  
+* [薫玉堂](https://shop.kungyokudo.co.jp) $15  
 特别好闻
 
 * [Woolite Darks Defense Laundry Detergent](https://www.amazon.com/Woolite-Laundry-Detergent-Regular-Washers/dp/B004S6C0I2) $15.32  

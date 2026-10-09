@@ -9,7 +9,7 @@ When a window is inactive, OS X draws gray window buttons automatically. However
 
 <img class="" alt="Screenshot of 6 dark apps" width="680" src="/static/images/dark-theme-window-buttons/6-apps.png">
 
-What we’ve been for Inboard is to hide the system buttons first, then add our own `NSButton`s. By using customized buttons, we can choose a darker color for the window buttons in the inactive state. This requires a huge amount of assets. But it’s worth it.
+What we’ve been doing for Inboard is to hide the system buttons first, then add our own `NSButton`s. By using customized buttons, we can choose a darker color for the window buttons in the inactive state. This requires a huge amount of assets. But it’s worth it.
 
 <style>
 @media only screen and (min-device-width: 480px) {
@@ -39,4 +39,4 @@ self.miniaturizeButton.appearance = [NSAppearance appearanceNamed:NSAppearanceNa
 self.zoomButton.appearance = [NSAppearance appearanceNamed:NSAppearanceNameVibrantDark];
 {% endhighlight %}
 
-Yay! Problem solved. We do not need to use customized trafic light buttons anymore. Split View, see you in Inboard 1.0.7.
+Yay! Problem solved. We do not need to use customized traffic light buttons anymore. Split View, see you in Inboard 1.0.7.
