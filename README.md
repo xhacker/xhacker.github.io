@@ -1,7 +1,10 @@
 Xhacker’s 3rd Base
 ==================
 
-http://blog.xhacker.im
+https://blog.xhacker.im
 
-* `bundle install`
-* `bundle exec jekyll serve`
+```sh
+gem install bundler
+bundle install
+bundle exec jekyll serve --livereload
+```
